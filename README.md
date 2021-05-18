@@ -10,7 +10,7 @@ The main motto is to provide the high security, increase in the number of shares
 
 # Propsed System
 In this project we take any image which is to be shared secretly. This image is encrypted using a key given by the user. Further, the encrypted image is divided into N different shares using K N Secret Sharing Algorithm. These N shares can be distributed but, the end user needs only K of these shares to generate the original image. After the original image is generated it is still in encrypted form. The key which is used to encrypt the image originally is now required again to decrypt it, thus providing an additional level of security.
-![image](https://user-images.githubusercontent.com/69750612/118719764-7ed45c00-b846-11eb-95b1-6843b8030645.png)
+
 
 ![image](https://user-images.githubusercontent.com/69750612/118719893-9f9cb180-b846-11eb-844f-d1bee55f4904.png)
 
@@ -21,7 +21,7 @@ Number of shares (n) = 10
 Number of shares to be taken (k) = 6,
 The experimental result after encryption by the k n encryption algorithm is given below: 
 We can get the original image only by stacking k or more shares. If value of k is less than required (in this case k = 6), we will get a partial image. After choosing any number of shares of all the generated shares
-![image](https://user-images.githubusercontent.com/69750612/118719997-b80ccc00-b846-11eb-88b3-32240705bdc1.png)
+
 
 AES encryption results
           A symmetric key based encryption (AES encryption) at both the ends of KN Shares
