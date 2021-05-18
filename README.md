@@ -27,8 +27,29 @@ AES encryption results
           A symmetric key based encryption (AES encryption) at both the ends of KN Shares
            Algorithm is added to make the image more secure.
  Thus, after encrypting the original image with AES first, and then, regenerating the shares give more better and noisy image. Now, the image will require at-least k shares  along with the symmetric key in order to decrypt the image to its original form.
-![image](https://user-images.githubusercontent.com/69750612/118720107-d1ae1380-b846-11eb-9038-2e34cc5b923e.png)
+
 
 ![image](https://user-images.githubusercontent.com/69750612/118720130-d96db800-b846-11eb-8456-7d2ebd8d0c61.png)
 
+# Application
+There are many applications of Visual Cryptography some of them are following:
+1. Secret Communication
+2. Copyright Protection
+3. Document Authentication
+4. Secret data storing
+
+
+
+
 Reference:https://github.com/srajat/Visual-Cryptography-Using-K-N-Secret-Sharing#aes
+InKoo Kang, Member, IEEE, Gonzalo R. Arce, Fellow, IEEE, and Heung-Kyu Lee, Member, IEEE, “Color Extended Visual Cryptography Using Error Diffusion”, IEEE TRANSACTIONS ON IMAGE PROCESSING, VOL. 20, NO. 1, JANUARY 2011. 
+Shyamalendu Kandar , Arnab Maiti,” K-N secret sharing visual cryptography scheme for color image using Random number”,vol 3,no.3,Mar 2011.  
+M. Naor and A. Shamir, “Visual cryptography,” in Proc. EUROCRYPT, 1994, pp. 1–12. 
+G. Ateniese, C. Blundo, A. D. Santis, and D. R. Stinson, “Visual cryptography for general access structures,” Inf. Comput., vol. 129, no. 2, pp. 86–106, 1996. 
+ Y.C. Hou, F. Lin, C.Y. Chang, A new approach on 256 colorsecret image sharing technique, MIS Review, No. 9, December1999, pp. 89–105.  
+ Y.C. Hou, C.Y. Chang, F. Lin, Visual cryptography for colorimages based on color decomposition, Proceedings of the FifthConference on Information Management, Taipei, November1999, pp. 584–591.
+  Asoke Nath, Saima Ghosh, Meheboob Alam Mallik, Symmetric Key Cryptography using Random Key generator : “Proceedings of International conference on security and management(SAM’10” held at Las Vegas, USA Jull 12-15, 2010), Vol-2, Page: 239-244(2010). 
+ Asoke Nath, Sankar Das, Amlan Chakraborti, Data Hiding and Retrieval : published in IEEE “Proceedings of International Conference on Computational Intelligence and Communication Networks (CICN 2010)” held from 26- 28 NOV’2010 at Bhupal, Page: 392-397(2010).
+Feng Liu and chuankun Wu.(2011), ‘Embedded Extended Visual Cryptography Schemes’, IEEE TRANSACTIONS ON INFORMATION FORENSICS AND SECURITY, VOL. 6, NO. 2, pp. 307-322
+
+
